@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+}
+body {
+  background-image: url(/resources/plant-light-2004483_1920.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+.navContainer {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.navigations {
+  display: flex;
+  gap: 100px;
+  justify-content: end;
+  font-size: larger;
+}
+.bars {
+  width: 50%;
+}
+li {
+  list-style: none;
+}
+.search {
+  gap: 5px;
+  display: flex;
+}
+label {
+  font-size: 20px;
+  padding: 5px;
+}
+input {
+  border-width: 1px;
+  border-radius: 10px;
+  background-color: transparent;
+}
+input:focus {
+  border-width: 1px;
+  box-shadow: 3px 3px 5px black;
+}
+.searchButton {
+  background: transparent;
+  border-radius: 10px;
+  padding-top: 3px;
+  border-width: 1px;
+}
+.searchIcon {
+  width: 25px;
+}
