@@ -15,6 +15,9 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+.logo {
+  font-size: 35px;
+}
 .navigations {
   display: flex;
   gap: 100px;
@@ -26,6 +29,13 @@ body {
 }
 li {
   list-style: none;
+}
+.navigations li a {
+  text-decoration: none;
+  border: none;
+}
+.navigations li a:hover {
+  border-bottom: 1px solid black;
 }
 .search {
   gap: 5px;
